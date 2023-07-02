@@ -96,8 +96,7 @@
     methods: {
   
       async login(){
-      
-        console.log('login baby yeah!')
+        
         let dmApiClient = new dmApi({token : this.appStore.userState.accessToken })
   
         this.loginForm.alerts.error = false
