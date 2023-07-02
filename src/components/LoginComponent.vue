@@ -127,34 +127,6 @@
 
         this.loginForm.submitButtonDisable = false;
 
-        
-        /*.then(
-          
-        ).catch((error) => {
-  
-          if (error.response) {
-  
-            // console.log(error.response.data);
-            // console.log(error.response.status);
-            // console.log(error.response.headers);
-
-  
-          } else if (error.request) {
-  
-            this.loginForm.alerts.error = true;
-            this.loginForm.alertMessages.error = 'Request Timeout';
-  
-          } else {
-            
-
-          }
-  
-          this.userStore.logout();
-
-          //console.log(error.config);*/
-  
-        // });
-  
       },
       loginValidate(){
   
